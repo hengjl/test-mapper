@@ -1,0 +1,4 @@
+server:
+  port: 8910
+  context-path: /springboot1
+
