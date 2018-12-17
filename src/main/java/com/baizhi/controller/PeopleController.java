@@ -29,6 +29,7 @@ public class PeopleController {
         List<People> people=peopleMapper.selectAll();
         modelAndView.addObject("list",people);
         System.out.print(people);
+          System.out.print("hahah");
         return  modelAndView;
     }
 
