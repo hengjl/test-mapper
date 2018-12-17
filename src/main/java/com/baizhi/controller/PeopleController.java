@@ -17,7 +17,7 @@ import java.util.List;
 
 
 
-//@RestController
+
 @Controller
 @RequestMapping("/people")
 public class PeopleController {
@@ -32,4 +32,6 @@ public class PeopleController {
         return  modelAndView;
     }
 
+    
+    
 }
