@@ -5,7 +5,6 @@ import com.baizhi.mapper.PeopleMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
@@ -30,6 +29,10 @@ public class PeopleController {
         modelAndView.addObject("list",people);
         System.out.print(people);
           System.out.print("hahah");
+
+
+        System.out.print("This f update");
+        System.out.print("This f update");
         return  modelAndView;
     }
 
